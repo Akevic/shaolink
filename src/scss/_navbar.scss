@@ -41,6 +41,7 @@
           padding: .3rem 1rem;
           font-size: 1rem;
           color: #fff;
+          cursor: pointer;
         }
       }
     }
@@ -69,6 +70,9 @@
       }
     }
 
+    @media (min-width: 992px) {
+      display: none;
+    }
   }
 }
 
@@ -86,6 +90,8 @@
   .nav-link {
     font-size: 1rem;
     margin-top: 0;
+    font-weight: lighter;
+    cursor: pointer;
   }
 
   hr {
@@ -95,6 +101,8 @@
 
   .login-link {
     font-size: 1rem;
+    font-weight: lighter;
+    cursor: pointer;
   }
 
   .sign-button {
@@ -105,5 +113,6 @@
     font-size: 1rem;
     color: #fff;
     width: 100%;
+    cursor: pointer;
   }
 }
